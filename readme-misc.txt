@@ -1,3 +1,45 @@
+847  mvn install:install-file   -Dfile=asm=9.7.jar   -DgroupId=asm   -DartifactId=asm   -Dversion=9.7   -Dpackaging=jar
+  848  mvn install:install-file   -Dfile=asm-9.7.jar   -DgroupId=asm   -DartifactId=asm   -Dversion=9.7   -Dpackaging=jar
+  965  mvn clarn -o
+  966  mvn clan -o
+  967  mvn clean -o
+  970  mvn compile -o
+  973  mvn package -o
+  977  mvn dependency:resolve
+  978  mvn dependency:resolve-plugins
+  982  mvn -version
+  985  mvn -v
+  988  mvn -v
+  992  mvn package
+  993  mvn package -o
+  994  mvn build -o
+  995  mvn clean -o
+  996  history | grep mvn
+  997  mvn compile-o
+  998  mvn compile -o
+ 1003  mvn clean -o
+ 1004  mvn clean -o -X
+ 1015  mvn clean -o 
+ 1016  history | grep mvn
+ 1017  mvn package -o
+ 1031  mvn dependency:go-offline
+ 1032  mvn clean package -Dmaven.test.skip=true -o
+ 1034  mvn -o clean package
+ 1035  mvn clean package -o
+ 1036  mvn dependency:list
+ 1037  mvn dependency:tree
+ 1038  mvn help:evaluate -Dexpression=settings.localRepository -q -DforceStdout
+ 1040  history | grep mvn
+ 1041  mvn install:install-file   -Dfile=asm=9.7.jar   -DgroupId=asm   -DartifactId=asm   -Dversion=9.7   -Dpackaging=jar -o
+ 1042  mvn install:install-file   -Dfile=asm-9.7.jar   -DgroupId=asm   -DartifactId=asm   -Dversion=9.7   -Dpackaging=jar -o
+ 1043  mvn dependency:tree
+ 1044  mvn dependency:list
+ 1051  mvn -v
+
+
+
+
+
 split -b 15M myfolder.tar myfolder.tar.part-
 
 
